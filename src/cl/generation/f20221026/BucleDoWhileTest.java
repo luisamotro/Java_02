@@ -1,5 +1,7 @@
 package cl.generation.f20221026;
 
+import java.util.Scanner;
+
 public class BucleDoWhileTest {
 
 	public static void main(String[] args) {

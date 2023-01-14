@@ -10,8 +10,7 @@ public class arreglos {
 		//Estaticos: no cambia el tamaño del arreglo
 		int[] arreglo= new int[3];
 		//arreglo.length;tamaño del arreglo 
-		//arreglo de tipo entero
-		//no permite mezclar tipos de datos 
+		//arreglo de tipo entero: no permite mezclar tipos de datos 
 		//el dato si o si tiene que ser numerico 	
 		
 		//como crear un arreglo?
@@ -21,7 +20,8 @@ public class arreglos {
 		arreglo[0]=4;
 		arreglo[1]=5;
 		arreglo[2]=6;
-		//arreglo[3]=7;error fuera de indice, max 3
+		
+		//arreglo[3]=7;error fuera de indice, max 3 porque es la dimension que le di
 		
 		System.out.println(arreglo.toString());
 		System.out.println(Arrays.toString(arreglo));//para ver el contenido del arreglo
@@ -53,11 +53,11 @@ public class arreglos {
 		
 		
 		//crear arreglo de enteros tamaño 100 y agregar valores dinamicamente desde el 1 al 100
-		int[] numeros = new int [100];//el 100 es el tamaño, dimension que uno le asigna 
-		for (int i = 0; i < numeros.length; i = i + 1); {
-			numeros[i] = i+1;
+		int[] num = new int [100];//el 100 es el tamaño, dimension que uno le asigna 
+		for (int i = 0; i < num.length; i = i + 1); {
+			num[i] = i+1;
 		}
-		System.out.println(Arrays.toString(numeros));
+		System.out.println(Arrays.toString(num));
 			
 		//crear arreglo pero agregar valores del 100 al 1
 		int[] arreglo100a1 = new int[100];
@@ -69,8 +69,7 @@ public class arreglos {
 		int[] arr = new int [10]
 				
 		//2. El mismo arreglo crear otros 2 arreglos, uno con solo los pares y otro arreglo solo con los impares
-		Para el mismo arreglo, sacar el promedio de los números.
-		
+		//Para el mismo arreglo, sacar el promedio de los números.
 	
 		
 		

@@ -11,7 +11,7 @@ public class CapturarDatos {
 		//calculo del IMC;
 		//imc=kilos/(estatura*estatura)
 		System.out.println("ingrese su peso en kilogramos");//para pedir datos en Java
-		Float peso = peso = scanner.nextFloat();//capturar la info del flotante
+		Float peso = scanner.nextFloat();//capturar la info del flotante
 		System.out.println();
 		System.out.println("el peso es:" +peso);
 		
@@ -24,8 +24,10 @@ public class CapturarDatos {
 		
 		
 		scanner.close();//para que termine de esuchar o esperar que se le diga que llame al dato
-		return Imc;
+		
 	
+			
+		}
 	}
 
 	public static void nivelImc(Float Imc) {
@@ -43,13 +45,11 @@ public class CapturarDatos {
 	
 			}else if (Imc >=25F && Imc < 30) {
 				System.out.println("El paciente esta en el rango sobre peso");
-			}else {
-				
-			}
 			
-		}
+			
+		
 
-	}
+	
 	
 	
 	

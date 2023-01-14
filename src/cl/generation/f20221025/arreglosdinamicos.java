@@ -7,7 +7,7 @@ public class arreglosdinamicos {
 	public static void main(String[] args) {
 		//ArrayList
 		//Definicion
-		//ArrayList<TIPODATO < nombre_array = new ArrayList<TIPODATO>();
+		 
 		
 		ArrayList<String> relatores = new ArrayList<String>();
 		
@@ -22,8 +22,8 @@ public class arreglosdinamicos {
 		//Para el tamaño del arraylist
 		System.out.println(relatores.size());
 		/*length, para arreglos estaticos, size para arreglos dinamicos*/
-		//Para obtener un elemento del arreglo seria
 		
+		//Para obtener un elemento del arreglo seria
 		System.out.println(relatores.get(3));
 		//System.out.println(relatores.get(7));fuera de indice
 		

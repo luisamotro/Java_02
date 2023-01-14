@@ -7,7 +7,7 @@ public class Funciones1 {
 		
 		//llamar a un metodo/funcion
 		nombreMetodo();
-		metodo2("luisa");
+		metodo1("luisa");
 		metodo2("morales");
 
 	}
